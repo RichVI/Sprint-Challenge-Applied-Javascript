@@ -10,9 +10,9 @@
 
 // axios get requests and console.log response
 axios
-  .get('https://lambda-times-backend.herokuapp.com/topics')
-  .then(response => {
-    console.log(response);
+    .get('https://lambda-times-backend.herokuapp.com/topics')
+    .then(response => {
+       console.log(response);
 
     // Creating .topics component:
     const topics = document.querySelector('.topics');
